@@ -1,0 +1,40 @@
+
+
+body {
+    min-height: 90vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+background-color: white;
+width: 330px;
+height: 45%;
+text-align: center;
+box-shadow: 16px 19px 14px rgba(0, 0, 0, 0.1);
+border-radius: 0.8rem;
+}
+.card-container {
+ margin: 7% auto;   
+}
+.card-container img {
+    width: 300px;
+    border-radius: 1rem;
+
+
+}
+.card-container p {
+    color: grayishblue;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        min-height: 90vh;
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
